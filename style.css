@@ -47,7 +47,7 @@ a {
 .hero {
  display: flex;
  align-items: center;
- padding: 8% 15%;
+ padding: 99px 15% 121px 15%;
 }
 
 .hero-left-sub-container {
@@ -55,7 +55,6 @@ a {
  flex-direction: column;
  max-width: 450px;
  margin-right: auto;
- gap: 10px;
 }
 
 .main-text {
@@ -68,6 +67,7 @@ a {
 button {
  color: #e5e7eb;
  font-size: 18px;
+ margin-bottom: 10px;
 }
 
 button {
