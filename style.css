@@ -7,11 +7,11 @@ html {
 
 body {
  margin: 0;
+ font-family: 'Roboto';
 }
 
 .header-hero-section {
  background-color: #1f2937;
- font-family: 'Roboto';
 }
 
 .header {
@@ -65,7 +65,8 @@ a {
 }
 
 .secondary-text,
-button {
+button,
+.information-subtext {
  color: #e5e7eb;
  font-size: 18px;
  margin-bottom: 10px;
@@ -76,4 +77,48 @@ button {
  font-weight: bold;
  padding: 8px 35px;
  border-radius: 8px;
+}
+
+/*--------*/
+
+.chair-image,
+.table-image,
+.lighting-image,
+.plants-image {
+ display: block;
+ border: 4px solid rgb(49, 129, 235);
+ border-radius: 18px;
+ object-fit: cover;
+ object-position: right center;
+ margin-bottom: 8px;
+}
+
+.table-image {
+ object-position: center center;
+}
+
+.information-section {
+ text-align: center;
+ padding: 16px 0 107px 0;
+}
+
+.information-subsection {
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+.information-container {
+ max-width: 170px;
+}
+
+.information-subtext,
+h2 {
+ color: #1f2937;
+}
+
+h2 {
+ font-size: 36px;
+ font-weight: 900;
+ margin-bottom: 48px;
 }
