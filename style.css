@@ -10,11 +10,13 @@ body {
  font-family: 'Roboto';
 }
 
-.header-hero-section {
+.header-hero-section,
+.footer {
  background-color: #1f2937;
 }
 
-.header {
+.header,
+.footer {
  display: flex;
  align-items: center;
  padding: 18px 15%;
@@ -188,4 +190,11 @@ margin: 0;
 .cta-section button {
  margin: 0;
  border: 2px solid white;
+}
+
+
+.footer {
+ color: #e5e7eb;
+ font-size: 18px;
+ justify-content: center;
 }
