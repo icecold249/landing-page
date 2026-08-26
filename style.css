@@ -10,20 +10,15 @@ body {
  font-family: 'Roboto';
 }
 
-.header-hero-section,
-.footer {
- background-color: #1f2937;
-}
-
 .header,
 .footer {
  display: flex;
  align-items: center;
- padding: 18px 15%;
- 
+ padding: 18px 213px;
+ background-color: #1f2937;
 }
 
-.site-logo {
+.header-logo {
  color: #f9faf8;
  font-size: 24px;
  font-weight: bold;
@@ -34,7 +29,7 @@ ul {
  display: flex;
  font-size: 18px;
  list-style: none;
- gap: 22px;
+ gap: 24px;
  padding: 0;
  margin: 0;
 }
@@ -44,31 +39,30 @@ a {
  color: #e5e7eb;
 }
 
-/*------*/
-
 .hero {
  display: flex;
  align-items: center;
- padding: 99px 15% 121px 15%;
+ padding: 100px 213px 120px 213px;
+ background-color: #1f2937;
 }
 
-.hero-left-sub-container {
+.hero-content {
  display: flex;
  flex-direction: column;
  max-width: 450px;
  margin-right: auto;
 }
 
-.main-text {
+.hero-title {
  color: #f9faf8;
  font-size: 48px;
  font-weight: 900;
  margin: 0;
 }
 
-.secondary-text,
+.hero-description,
 button,
-.information-subtext {
+.information-description {
  color: #e5e7eb;
  font-size: 18px;
  margin-bottom: 10px;
@@ -81,8 +75,6 @@ button {
  border-radius: 8px;
  border: 1px solid black;
 }
-
-/*--------*/
 
 .chair-image,
 .table-image,
@@ -100,12 +92,12 @@ button {
  object-position: center center;
 }
 
-.information-section {
+.information {
  text-align: center;
  padding: 16px 0 107px 0;
 }
 
-.information-subsection {
+.information-content {
  display: flex;
  justify-content: center;
  gap: 50px;
@@ -115,7 +107,7 @@ button {
  max-width: 170px;
 }
 
-.information-subtext,
+.information-description,
 h2 {
  color: #1f2937;
 }
@@ -126,11 +118,9 @@ h2 {
  margin-bottom: 48px;
 }
 
-/*---------*/
-
-.quote-section {
+.quote {
  background-color: #e5e7eb;
- padding: 80px 0 80px 0;
+ padding: 130px 0 96px 0;
 }
 
 blockquote {
@@ -140,7 +130,7 @@ blockquote {
  margin: 0;
 }
 
-.quote-container {
+.quote-content {
  max-width: 780px;
  margin: 0 auto
 }
@@ -151,10 +141,8 @@ font-size: 24px;
 margin: 0;
 }
 
-/*------*/
-
 .cta-section {
-  padding: 100px 30px;
+  padding: 100px 30px 98px 30px;
 }
 
 .cta-container {
@@ -166,14 +154,11 @@ margin: 0;
  display: flex;
  padding: 0 110px;
  align-items: center;
- 
- 
 }
 
 .cta-content {
  margin-right: auto;
 }
-
 
 .cta-text-primary {
  margin: 0;
@@ -188,13 +173,13 @@ margin: 0;
 }
 
 .cta-section button {
- margin: 0;
+ margin: 0 0 -5px 0;
  border: 2px solid white;
 }
-
 
 .footer {
  color: #e5e7eb;
  font-size: 18px;
  justify-content: center;
+ padding: 21px 213px;
 }
